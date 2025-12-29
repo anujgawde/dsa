@@ -50,6 +50,6 @@ var isSymmetric = function (root) {
       return false;
     }
   }
-
+  //
   return true;
 };
