@@ -20,6 +20,7 @@ var postorderTraversal = function (root) {
     var poppedElement = stack.pop();
     res.push(poppedElement.val);
 
+    // This is the only section that changes from preorder to postorder
     if (poppedElement.left) {
       stack.push(poppedElement.left);
     }
